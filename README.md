@@ -48,7 +48,7 @@ The goals / steps of this project are the following:
 * `cmake ..`
 * `make`
 * `./ExtendedKF`
-* Download simulator `term2_sim.app` (if in MacOS) and open it. Click `play!` bottom, select Project 1/2: EKF and UKF, and press `Start` bottom to start.
+* Download simulator `term2_sim.app` (if in OSX) and open it. Click `play!` bottom, select Project 1/2: EKF and UKF, and press `Start` bottom to start.
 
 ## Extended Kalman Filter (EKF)
 
