@@ -8,7 +8,7 @@
 
 * Blue circle : radar measurement
 * Red circle : laser measurement
-* Green circle : computed EKF localization)
+* Green circle : computed EKF localization
 
 ![alt text][image1]
 
