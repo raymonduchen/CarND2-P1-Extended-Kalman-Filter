@@ -4,7 +4,7 @@
 
 **This my 1st project result of Udacity self-driving car nanodegree (CarND) term 2. It's required to combine two types of sensing data, lidar and radar, to localize object using so-called extended Kalman filter (EKF). A simulator is provided to visualize sensing data and EKF localization result.**
 
-**The following demonstrates EKF localization result and measurement data in action :** 
+**The following gif picture demonstrates EKF localization result and measurement data in action :** 
 
 * Blue circle : radar measurement
 * Red circle : laser measurement
@@ -20,19 +20,12 @@
 
   https://github.com/udacity/self-driving-car-sim/releases/
 
-The goals / steps of this project are the following:
-
-[//]: # (Image References)
-[image1]: ./images/ekf.gif
-[image2]: ./images/flowchart.png
-[image3]: ./images/EKF.png
-[image4]: ./images/radar.png
-[image5]: ./images/laser.png
-[image6]: ./images/radar_laser.png
-[image7]: ./images/pRMSE.png
-[image8]: ./images/vRMSE.png
+--
+**The goals / steps of this project are the following:**
 
 ![alt text][image2]
+
+**File structure:**
 
 * The measurement data receiving and connection to simulator is in C++ file `./src/main.cpp`.
 
@@ -41,6 +34,7 @@ The goals / steps of this project are the following:
 * The implementation of Kalman filter is in C++ file `./src/kalman_filter.cpp`.
 
 * Fuction to calculate RMSE and jacobian matrix used for evaluation of localization quality is in C++ file `./src/tools.cpp`.
+
 
 ## Usage
 * `mkdir build` 
@@ -67,7 +61,7 @@ The detailed formula is listed below :
 
 ## EKF performance evaluation
 
-By comparing RMSE of EKF result and ground truth, EKF localization performance can be evaluated. position RMSE and velocity RMSE are compared :
+By comparing root mean square erro (RMSE) of EKF result and ground truth, EKF localization performance can be evaluated. position RMSE and velocity RMSE are compared :
 
 ![alt text][image7]
 
@@ -91,6 +85,18 @@ Here's three types of EKF route comparisons between groud truth and EKF estimati
 ### Use both radar and laser
 
 ![alt text][image6]
+
+
+
+[//]: # (Image References)
+[image1]: ./images/ekf.gif
+[image2]: ./images/flowchart.png
+[image3]: ./images/EKF.png
+[image4]: ./images/radar.png
+[image5]: ./images/laser.png
+[image6]: ./images/radar_laser.png
+[image7]: ./images/pRMSE.png
+[image8]: ./images/vRMSE.png
 
 
 
