@@ -42,6 +42,13 @@ The goals / steps of this project are the following:
 
 * Fuction to calculate RMSE and jacobian matrix used for evaluation of localization quality is in C++ file `./src/tools.cpp`.
 
+## Usage
+* `mkdir build` 
+* `cd build`
+* `cmake ..`
+* `make`
+* `./ExtendedKF`
+* Download simulator `term2_sim.app` (if in MacOS) and open it. Click `play!` bottom, select Project 1/2: EKF and UKF, and press `Start` bottom to start.
 
 ## Extended Kalman Filter (EKF)
 
