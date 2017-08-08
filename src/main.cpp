@@ -155,7 +155,8 @@ int main()
             float py = rho * sin(phi);
             logfile << px << "\t" << py << "\t";
           }
-          logfile << gt_values(0) << "\t" << gt_values(1) << "\t" << gt_values(2) << "\t" << gt_values(3) << endl;
+          logfile << gt_values(0) << "\t" << gt_values(1) << "\t" << gt_values(2) << "\t" << gt_values(3) << "\t";
+          logfile << RMSE(0) <<"\t"  << RMSE(1) <<"\t" <<  RMSE(2) <<"\t"  << RMSE(3) << endl;
           //---------------------
 
 

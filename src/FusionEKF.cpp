@@ -91,8 +91,8 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     MatrixXd P_in = MatrixXd (4,4);
     P_in << 1, 0, 0, 0,
             0, 1, 0, 0,
-            0, 0, 1000, 0,
-            0, 0, 0, 1000;
+            0, 0, 1, 0,
+            0, 0, 0, 1;
     
     // state transition matrix F
     MatrixXd F_in = MatrixXd (4,4);
