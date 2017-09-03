@@ -22,7 +22,7 @@
 
 ---
 
-**The goals / steps of this project are the following:**
+**The goals / steps of this project are shown as follows:**
 
 ![alt text][image2]
 
